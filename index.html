@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>DDE calibration and imaging --by basp-group--</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>DDE self-calibration in RI</h1>
+        <p>MATLAB source code</p>
+
+        <p class="view"><a href="https://github.com/basp-group/BUQO">View the Project on GitHub <small>basp-group/BUQO</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/basp-group/BUQO/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/basp-group/BUQO/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/basp-group/BUQO">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+
+       <section>
+       <h2>Scalable Bayesian uncertainty quantification in imaging inverse problems via convex optimization</h2>
+       <p>The code will be made available soon.</p>
+       </section>
+
+      
+
+
+<section>
+<h3>
+
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h3>
+
+<p>We propose a Bayesian uncertainty quantification method for large-scale imaging inverse problems. Our method applies to all Bayesian models that are log-concave, where maximum-a-posteriori (MAP) estimation is a convex optimization problem. The method is a framework to analyse the confidence in specific structures observed in MAP estimates (e.g., lesions in medical imaging, celestial sources in astronomical imaging), to enable using them as evidence to inform decisions and conclusions. Precisely, following Bayesian decision theory, we seek to assert the structures under scrutiny by performing a Bayesian hypothesis test that proceeds as follows: firstly, it postulates that the structures are not present in the true image, and then seeks to use the data and prior knowledge to reject this null hypothesis with high probability. Computing such tests for imaging problems is generally very difficult because of the high dimensionality involved. A main feature of this work is to leverage probability concentration phenomena and the underlying convex geometry to formulate the Bayesian hypothesis test as a convex problem, that we then efficiently solve by using scalable optimization algorithms. This allows scaling to high-resolution and high-sensitivity imaging problems that are computationally unaffordable for other Bayesian computation approaches. We illustrate our methodology, dubbed BUQO (Bayesian Uncertainty Quantification by Optimization), on a range of challenging Fourier imaging problems arising in astronomy and medicine. </p>
+<!--<p>The code made available here represents a proof of concept MATLAB implementation of the proposed algorithm.</p>-->
+
+<h3>
+<a id="authors" class="anchor" href="#authors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors</h3>
+
+<ul>
+<li>Dr. Audrey Repetti</li>
+<li>Dr. Marcelo Pereyra</li>
+<li>Prof. Yves Wiaux</li>
+</ul>
+
+<h3>
+<a id="article" class="anchor" href="#article" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Articles</h3>
+
+<p>A. Repetti, M. Pereyra, and Y. Wiaux - 
+<em><strong>
+Scalable Bayesian uncertainty quantification in imaging inverse problems via convex optimization</strong>,
+<!--Monthly Notices of the Royal Astronomical Society, vol. 470, no. 4, pp. 3981-4006, Oct. 2017.  -->
+<a href="https://arxiv.org/abs/1803.00889">Arxiv preprint</a></em></p>
+
+
+<!--<p>A. Repetti and Y. Wiaux - 
+<em><strong>A non-convex perspective on calibration and imaging in radio interferometry</strong>,
+In Proceedings of the conference on Wavelets and Sparsity XVII, part of the SPIE Optical Engineering + Applications, San Diego, California, United States, 6-9 August 2017.
+<a href="https://arxiv.org/abs/1701.03689">Arxiv preprint</a></em></p>-->
+
+
+</section>
+     
+
+
+
+<footer>
+        <p>This project is maintained by <a href="https://github.com/basp-group">basp-group</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+</footer>
+</div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-82326814-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+     </script>
+
+  </body>
+</html>
+
